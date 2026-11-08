@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&display=swap');
+body{
+    direction: rtl !important;
+    font-family: "Cairo", sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6,a,p,span{
+    font-family: "Cairo", sans-serif !important;
+}
+.dropdown{
+    margin-left: 18px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    width: 115% !important;
+}
+.avatar-content .title {
+    margin-right: 10px;
+}
+.footer-link .list-wrap li::before
+ {
+    left: unset;
+    right: -18px;
+ }
+.list-wrap li i{
+    margin-left: 10px;
+}
+.services-details-img img{
+    margin-left: unset;
+    margin-right: 14%;
+}
+.contact-form-wrap .form-grp textarea, .contact-form-wrap .form-grp input {
+    text-align: right;
+}
+.breadcrumb-content .breadcrumb-item+.breadcrumb-item::before {
+    float: right !important;
+    rotate: 180deg;
+    margin-right: 10px;
+}
+@media(max-width: 767px) {
+   .dropdown-item.active, .dropdown-item:active {
+         width: 97% !important;
+   }
+   .list-wrap li i{
+    margin-left: unset;
+   }
+   .services-icon-two img{
+      width: 45px !important;
+   }
+    .about-content > p {
+        margin-bottom: 0px;
+    }
+    .about-content-bottom .call-btn i{
+        margin-right: unset;
+        margin-left: 12px;
+
+    }
+    .dropdown{
+        margin-right: 19px;
+    }
+    .list-wrap li i {
+        margin-left: 7px;
+    }
+    .footer-link .list-wrap li::before{
+        right: -9px;
+    }
+    .services-details-img img{
+        margin-right: unset;
+    }
+    .mobile-menu .navigation li > a {
+        padding: 10px 17px 10px 25px;
+    }
+}
+.brand-area-two{
+    direction: ltr !important;
+}
